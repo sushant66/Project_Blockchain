@@ -1,0 +1,32 @@
+<html>
+<head>
+
+<meta charset="UTF-8">
+<style>
+.container{
+  max-width: 500px;
+  margin: auto;
+}
+</style>
+<title>Admin Login</title>
+<!-- Include CSS File Here -->
+<link rel="stylesheet" href="css/style.css"/>
+<!-- Include JS File Here -->
+<script src="js/login.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="main">
+<h2>Admin Login</h2>
+<form id="form_id" method="post" name="myform">
+<label>User Name :</label>
+<input type="text" name="username" id="username" placeholder = "Enter username"/>
+<label>Password :</label>
+<input type="password" name="password" id="password" placeholder = "Enter password"/>
+<input type="button" value="Login" id="submit" onclick="validate()"/>
+</form>
+<!--<span><b class="note">Note : </b>For this demo use following username and password. <br/><b class="valid">User Name : Formget<br/>Password : formget#123</b></span>-->
+</div>
+</div>
+</body>
+</html>
