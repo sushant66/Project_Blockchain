@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<title>Votes Display</title>
+<head>
+	<meta http-equiv="refresh" content="10"/>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+</head>
+    <!-- <body>
+        <div>
+            <p id="result_1"></p>
+	    <p id="result_2"></p>
+        </div>
+    </body> -->
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js" integrity="sha256-nWBTbvxhJgjslRyuAKJHK+XcZPlCnmIAAMixz6EefVk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js"
+              crossorigin="anonymous"></script>   
+    <script type= "text/javascript" src="eth.js"></script>
+<body class="container">
+  <h1>Simple Voting Application</h1>
+  <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Candidate</th>
+          <th>Votes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>A</td>
+          <td id="result_1"></td>
+        </tr>
+        <tr>
+          <td>B</td>
+          <td id="result_2"></td>
+        </tr>
+	<tr>
+          <td>C</td>
+          <td id="result_3"></td>
+        </tr>
+        <tr>
+          <td>D</td>
+          <td id="result_4"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--<input type="text" id="candidate" />
+  <a href="#" onclick="voteForCandidate()" class="btn btn-primary">Vote</a>-->
+</body>
+</html>
